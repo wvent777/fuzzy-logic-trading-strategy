@@ -1,0 +1,22 @@
+----------------------------------------------
+Optimization time: 2446.594869852066
+
+
+Testing Values Baseline: 1.2147320197909464
+Testing Values Mean Optimized: 1.1831471920048557
+Testing Values Max Optimized: 1.5033910895208582
+Testing Values Median Optimized: 1.3520967584864363
+Testing Values Min Optimized: 1.1786350439226647
+
+Optimal Mean Strategy Parameters: {'fast_ma_type': 'weighted',
+ 'slow_ma_type': 'exponential', 'fast_ma_field': 'Open', 'slow_ma_field': 'Low',
+  'fast_ma_period': 11, 'slow_ma_period': 21}
+Optimal Max Strategy Parameters: {'fast_ma_type': 'weighted',
+ 'slow_ma_type': 'exponential', 'fast_ma_field': 'High', 'slow_ma_field': 'Low',
+  'fast_ma_period': 11, 'slow_ma_period': 28}
+Optimal Median Strategy Parameters: {'fast_ma_type': 'exponential',
+ 'slow_ma_type': 'simple', 'fast_ma_field': 'Close', 'slow_ma_field': 'Open',
+  'fast_ma_period': 3, 'slow_ma_period': 12}
+Optimal Min Strategy Parameters: {'fast_ma_type': 'weighted',
+ 'slow_ma_type': 'exponential', 'fast_ma_field': 'High', 'slow_ma_field': 'Open',
+  'fast_ma_period': 12, 'slow_ma_period': 17}
